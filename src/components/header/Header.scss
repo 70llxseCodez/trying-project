@@ -1,0 +1,15 @@
+.header {
+  background-color: #5b5b5b;
+  padding: 0 20px;
+  &__container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__links {
+    & a {
+      margin: 10px;
+    }
+  }
+}
